@@ -11,7 +11,6 @@ body{
     /* flex-wrap: wrap; */
     flex-direction: column;
     font-family: sans-serif;
-    color: var(--primary-color);
 }
 .header{
     display: flex;
@@ -19,8 +18,7 @@ body{
     box-shadow: 0px 15px 10px -15px #ccc;    
    padding: 1.5rem;
    background-color: #f1f5f9;
-
-
+   color: var(--primary-color);
     justify-content: space-between;
 }
 a{
