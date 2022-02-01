@@ -45,8 +45,7 @@ span{
     width: 100%;
 }
 .all_avatar_img, .text_avatar{
-    border: 1px solid 
-    #94a3b8;
+    border: 1px solid #94a3b8;
     padding: 2rem;
     border-radius: 0.5rem;
     display: flex;
@@ -93,9 +92,7 @@ span{
     border-radius: 50%;
 }
 .avatar_text_code{
-    /* max-width: 100%; */
     max-width: 100%;
     height: 20rem;
 
 }
-
