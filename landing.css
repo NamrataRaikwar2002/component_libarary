@@ -1,47 +1,49 @@
-:root{
-    --primary-color:#2563eb;
-}
-*{
+@import url(variable.css);
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     display: flex;
-    /* flex-wrap: wrap; */
     flex-direction: column;
     font-family: sans-serif;
-    color: var(--primary-color);
 }
-.header{
+
+.header {
     display: flex;
     flex-wrap: wrap;
-    box-shadow: 0px 15px 10px -15px #ccc;    
-   padding: 1.5rem;
-   background-color: #f1f5f9;
-
-
+    box-shadow: 0px 15px 10px -15px var(--shadow-color);
+    padding: 1.5rem;
+    background-color: var(--bg-color);
+    color: var(--primary-color);
     justify-content: space-between;
+
 }
-a{
+
+a {
     text-decoration: none;
     color: black;
 }
-.name_heading{
+
+.name_heading {
     display: flex;
-    /* border: 1px solid black; */
     gap: 3rem;
     align-items: center;
 
 }
-.contact_links{
+
+.contact_links {
     display: flex;
     gap: 3rem;
     font-size: 1.5rem;
     font-weight: bold;
     justify-content: flex-end;
 }
-.get_section{
+
+.get_section {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -50,19 +52,33 @@ a{
     gap: 2rem;
 }
 
-.title{
+.title {
     font-size: 4rem;
-    font-weight:bold;
+    font-weight: bold;
 
 }
-.head_link:hover
-{
-    color:var(--primary-color);    
+
+.head_link {
+    font-weight: bold;
 }
-.getstart{
+
+.head_link:hover {
+    color: var(--btnPghover-color);
+}
+
+.getstart {
     padding: 1rem;
     border-radius: 0.5rem;
     color: white;
-    box-shadow: 2px 3px 4px 1px #94a3b8;    
+    box-shadow: 2px 3px 4px 1px var(--shadow-color);
     background-color: var(--primary-color);
+}
+
+.getstart:hover {
+    background-color: var(--btnPghover-color);
+}
+
+.title_para {
+    font-size: 2rem;
+    text-align: center;
 }
