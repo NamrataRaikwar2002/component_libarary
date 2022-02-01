@@ -1,0 +1,53 @@
+@import url(/landing.css);
+@import url(/variable.css);
+
+body{
+    display: flex;
+    max-width: 100%;
+    flex-wrap: wrap;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.drawer_component{
+    display: flex;
+    /* border: 1px solid black; */
+    /* position: relative; */
+
+    
+}
+.component_list{
+    /* border: 1px solid black; */
+    display: flex;
+    gap: 1.5rem;
+    padding: 1.5rem;
+    flex-direction: column;
+    overflow-y: scroll;
+    /* overflow-x: hidden; */
+    height: 40rem;
+    width: 18rem;
+    /* background-color: red; */
+    position: sticky;
+    top: 0;
+}
+.component_item{
+    /* border: 1px  solid black; */
+    padding:1rem;
+    /* padding-left: 2rem;
+    padding-right: 2rem; */
+    border-radius: 0.2rem;
+    font-weight: bold;
+
+}
+.component_item:hover{
+    background-color: var(--backgroundhover-color);
+    color:  var(--primary-color);
+}
+.installation_text{
+    display: flex;
+    padding: 2rem;
+    overflow: hidden;
+}
