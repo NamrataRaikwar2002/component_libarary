@@ -1,0 +1,69 @@
+@import url(/landing.css);
+@import url(/components/instalation/instalation.css);
+
+body {
+    overflow-x: hidden;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.alert_page {
+    display: flex;
+    width: 100%;
+    padding: 4rem;
+    gap: 2rem;
+    flex-direction: column;
+
+}
+
+.all_alert {
+    padding: 2rem;
+    width: 60rem;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    border: 1px solid var(--border-color);
+    border-radius: 0.5rem;
+
+
+}
+
+.alert_bar {
+    border-radius: 0.2rem;
+    padding-left: 1rem;
+    gap: 2rem;
+    align-items: center;
+    width: 25rem;
+    height: 3rem;
+    display: flex;
+    box-shadow: 2px 2px 4px 1px var(--shadow-color);
+}
+
+.alert_doc {
+    column-gap: 2rem;
+}
+
+.error {
+    color: var(--alertError-color);
+    background-color: var(--errorbg-color);
+}
+
+.warning {
+    color: var(--warning-color);
+    background-color: var(--warningbg-color);
+}
+
+.success {
+    color: var(--success-color);
+    background-color: var(--successbg-color);
+}
+
+.info {
+    color: var(--info-color);
+    background-color: var(--infobg-color);
+}
+
+.alert_code {
+    height: 20rem;
+}
