@@ -6,5 +6,18 @@
     --bg-color: #f1f5f9;
     --shadow-color: #94a3b8;
     --btnPghover-color: #1f51bd;
+    --alertError-color: #dc2626;
+    --errorbg-color: #fecaca;
+    --warning-color: #d97706;
+    --warningbg-color: #fde68a;
+    --success-color: #3f6212;
+    --successbg-color: #a3e635;
+    --info-color: #164e63;
+    --infobg-color: #7dd3fc;
 
+}
+
+.components_heading {
+    font-weight: bold;
+    font-size: 3rem;
 }
