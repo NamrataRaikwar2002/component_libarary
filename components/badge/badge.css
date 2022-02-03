@@ -46,7 +46,6 @@
 
 .icon-badge_div {
     display: flex;
-    flex-direction: row;
     position: relative;
     align-items: baseline;
     border: 1px solid var(--border-color);
