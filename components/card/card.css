@@ -19,7 +19,8 @@
     box-shadow: 2px 2px 4px 2px var(--shadow-color);
 }
 
-.btn {
+.card_btn {
+    color: white;
     background-color: var(--primary-color);
     border: none;
     padding: 0.5rem;

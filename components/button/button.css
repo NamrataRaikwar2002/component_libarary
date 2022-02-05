@@ -25,6 +25,7 @@
     padding: 0.5rem;
     font-size: 1rem;
     border-radius: 0.2rem;
+    color: white;
 }
 
 .primary_btn {
@@ -38,10 +39,12 @@
 
 .primary_outline {
     background-color: transparent;
+    color: black;
     border: 2px solid var(--primary-color);
 }
 
 .primary_outline:hover {
+    color: white;
     background-color: var(--primary-color);
 }
 
@@ -55,6 +58,7 @@
 
 .secondary_btn {
     border: none;
+    color: black;
     background-color: var(--backgroundhover-color);
 }
 
@@ -85,6 +89,7 @@
     width: 3rem;
     height: 3rem;
     border: none;
+    color: white;
     background-color: var(--primary-color);
     border-radius: 50%;
 }
