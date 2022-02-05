@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="card.css">
+</head>
+<script src="https://kit.fontawesome.com/6b52d0ce66.js" crossorigin="anonymous"></script>
+
+<body>
+    <div class="main_div">
+        <nav class="header">
+            <div class="name_heading">
+                <h1>CheckMate-UI</h1>
+                <a class="head_link" href="/index.html">Home</a>
+                <a class="head_link" href="/components/instalation/instalation.html">Documentation</a>
+            </div>
+            <div class="contact_links">
+                <a class="head_link" href="https://github.com/NamrataRaikwar2002"><i class="fab fa-github"></i></a>
+                <a class="head_link" href="https://www.linkedin.com/in/namrata-raikwar-727951224/"><i
+                        class="fab fa-linkedin"></i></a>
+            </div>
+        </nav>
+        <div class="drawer_component">
+            <div class="component_list">
+                <h2>Getting started</h2>
+                <a href="/components/instalation/instalation.html" class="component_item">Installation</a>
+                <h2>Components</h2>
+                <a href="/components/avatar/avatar.html" class="component_item">Avatar</a>
+                <a href="/components/alert/alert.html" class="component_item">Alert</a>
+                <a href="/components/badge/badge.html" class="component_item">Badge</a>
+                <a href="/components/button/button.html" class="component_item">Button</a>
+                <a href="/components/card/card.html" class="component_item">Card</a>
+                <a href="#" class="component_item">Image</a>
+                <a href="#" class="component_item">Input</a>
+                <a href="#" class="component_item">Text Utilities</a>
+                <a href="#" class="component_item">List</a>
+                <a href="#" class="component_item">Navigation</a>
+                <a href="#" class="component_item">Modal</a>
+                <a href="#" class="component_item">Rating</a>
+                <a href="#" class="component_item">Snackbar</a>
+                <a href="#" class="component_item">Simplified Grid</a>
+            </div>
+            <div class="all_cards">
+                <h1 class="components_heading">Cards</h1>
+                <p>Cards contains the short information for the user.</p>
+                <h2>Basic text card.</h2>
+                <p>For the style use class <span>basic_card</span> and for button use <span>btn</span>.</p>
+                <div class="basic_card">
+                    <h2>Title</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A quis consequuntur consectetur ratione
+                        pariatur.</p>
+                    <button class="btn">Click</button>
+                </div>
+                <iframe class="carbon_code"
+                    src="https://carbon.now.sh/embed?bg=rgba%28219%2C219%2C244%2C1%29&t=seti&wt=none&l=javascript&width=601&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=37px&ph=42px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522basic_card%2522%253E%250A%2520%2520%253Ch2%253ETitle%253C%252Fh2%253E%250A%2520%2520%253Cp%253ELorem%2520ipsum%252C%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520%2520%2520elit.%2520A%2520quis%2520consequuntur%2520consectetur%2520ratione%250A%2520%2520pariatur.%253C%252Fp%253E%250A%253Cbutton%2520class%253D%2522btn%2522%253EClick%253C%252Fbutton%253E%253C%252Fdiv%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+
+                <h2>Card with badge</h2>
+                <p>For badge on card use the class <span>badgeOn_card</span>.</p>
+                <div class="card">
+                    <img class="img1" src="/components//images/earrings.jpg">
+                    <p class="badgeOn_card">New</p>
+                    <div class="card_title">
+                        <h3 class="heading">Earrings</h3>
+                        <h3>&#8377; 999 </h3>
+                        <button class="btn addto_cart"><i class="fas fa-shopping-cart"></i>add to cart</button>
+                    </div>
+                </div>
+                <iframe class="carbon_code"
+                    src="https://carbon.now.sh/embed?bg=rgba%28219%2C219%2C244%2C1%29&t=seti&wt=none&l=javascript&width=601&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=37px&ph=42px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%253Cimg%2520class%253D%2522img1%2522%2520%2509%2509%2509%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%2509%2509%2520%2520%2520src%253D%2522%252Fcomponents%252F%252Fimages%252Fearrings.jpg%2522%253E%250A%2520%2520%253Cp%2520class%253D%2522badgeOn_card%2522%253ENew%253C%252Fp%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card_title%2522%253E%250A%2520%2520%2509%2520%253Ch3%2520class%253D%2522heading%2522%253EEarrings%253C%252Fh3%253E%250A%2520%2520%2509%2520%253Ch3%253E%2526%25238377%253B%2520999%2520%253C%252Fh3%253E%250A%2509%2520%253Cbutton%2520class%253D%2522btn%2520addto_cart%2522%253E%253Ci%2520class%253D%2522fas%2520fa-%2509%2509%2509shopping-cart%2522%253E%253C%252Fi%253Eadd%2520to%2520cart%253C%252Fbutton%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+                <h2>Vertical Card with dismiss</h2>
+                <p>For dismiss icon you can use the class <span>dismiss</span>.</p>
+                <div class="card">
+                    <img class="img1" src="/components//images/earrings.jpg">
+                    <i class="fas fa-times dismiss"></i>
+                    <div class="card_title">
+                        <h3 class="heading">Earrings</h3>
+                        <h3>&#8377; 999 </h3>
+                        <button class="btn addto_cart"><i class="fas fa-shopping-cart"></i>add to cart</button>
+                    </div>
+                </div>
+                <iframe class="carbon_code"
+                    src="https://carbon.now.sh/embed?bg=rgba%28219%2C219%2C244%2C1%29&t=seti&wt=none&l=javascript&width=601&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=37px&ph=42px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%253Cimg%2520class%253D%2522img1%2522%2520%2520%2520%2520%2520%2520%2520%2520%2509%2509%2509%2509%2509%2509%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522%252Fcomponents%252F%252Fimages%252Fearrings.jpg%2522%253E%250A%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times%2520dismiss%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522card_title%2522%253E%250A%2520%2520%2520%2509%2509%253Ch3%2520class%253D%2522heading%2522%253EEarrings%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%253E%2526%25238377%253B%2520999%2520%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520addto_cart%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253Eadd%2520to%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+                <h2>Card with text overlay </h2>
+                <p>For card with text overlay you can use class <span>overlay</span>.</p>
+                <div class="card overlay">
+                    <img class="img1" src="/components//images/earrings.jpg">
+                    <h3 class="overlay_text">Out of stock</h3>
+                    <div class="card_title">
+                        <h3 class="heading">Earrings</h3>
+                        <h3>&#8377; 999 </h3>
+
+                        <button class="btn addto_cart"><i class="fas fa-shopping-cart"></i>add to cart</button>
+                    </div>
+                </div>
+                <iframe class="carbon_code"
+                    src="https://carbon.now.sh/embed?bg=rgba%28219%2C219%2C244%2C1%29&t=seti&wt=none&l=javascript&width=601&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=37px&ph=42px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520overlay%2522%253E%250A%2520%2520%253Cimg%2520class%253D%2522img1%2522%2520%2509%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522%252Fcomponents%252F%252Fimages%252Fearrings.jpg%2522%253E%250A%2520%2520%253Ch3%2520class%253D%2522overlay_text%2522%253EOut%2520of%2520stock%253C%252Fh3%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card_title%2522%253E%250A%2520%2520%2509%253Ch3%2520class%253D%2522heading%2522%253EEarrings%253C%252Fh3%253E%250A%2520%2520%2520%2509%253Ch3%253E%2526%25238377%253B%2520999%2520%253C%252Fh3%253E%250A%250A%2520%2520%2520%2509%253Cbutton%2520class%253D%2522btn%2520addto_cart%2522%253E%250A%2520%2520%2520%2509%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253Eadd%2520to%2520%2509%2509%2509%2520%2520%2520%2520%2520cart%253C%252Fbutton%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+                <h2>Horizontal Card</h2>
+                <p>For Horizontal card you can use classes <span>horizontal_card,horizontal_img_section</span> and
+                    <span>horizontal_text</span>.</p>
+                <div class="card horizontal_card">
+                    <section class="horizontal_img_section">
+                        <img class="img1 horizontal_img" src="/components//images/earrings.jpg">
+                        <div class="card_title horizontal_text">
+                            <h3 class="heading">Earrings</h3>
+                            <h3>&#8377; 999</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </section>
+                    <section class="horizontal_btn">
+                        <button class="btn addto_cart"><i class="fas fa-shopping-cart"></i>add to cart</button>
+                        <button class="btn addto_cart">Buy Now</button>
+                    </section>
+
+                </div>
+                <iframe class="carbon_code"
+                    src="https://carbon.now.sh/embed?bg=rgba%28219%2C219%2C244%2C1%29&t=seti&wt=none&l=javascript&width=601&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=37px&ph=42px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520horizontal_card%2522%253E%250A%2520%2520%253Csection%2520class%253D%2522horizontal_img_section%2522%253E%250A%2520%2520%253Cimg%2520class%253D%2522img1%2520horizontal_img%2522%2520%2520%2520%2520%2520%2520%2509%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522%252Fcomponents%252F%252Fimages%252Fearrings.jpg%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card_title%2520horizontal_text%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522heading%2522%253EEarrings%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%253Ch3%253E%2526%25238377%253B%2520999%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253C%252Fsection%253E%250A%2520%2520%2520%253Csection%2520class%253D%2522horizontal_btn%2522%253E%250A%2520%2520%2520%2509%2509%253Cbutton%2520class%253D%2522btn%2520addto_cart%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253Eadd%2520to%2520%2520%2520%2520%2509%2509%2509cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520addto_cart%2522%253EBuy%2520Now%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fsection%253E%250A%2520%253C%252Fdiv%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
