@@ -1,0 +1,95 @@
+@import url(/landing.css);
+@import url(/components/avatar/avatar.css);
+@import url(/components/instalation/instalation.css);
+
+.all_button {
+    display: flex;
+    flex-direction: column;
+    padding: 4rem;
+    gap: 1rem;
+
+}
+
+.primarybtn_div,
+.secondatybtn_div,
+.iconbtn_div,
+.floatbtn_div {
+    display: flex;
+    gap: 2rem;
+    border: 1px solid var(--border-color);
+    padding: 4rem;
+    border-radius: 0.5rem;
+}
+
+.btn {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 0.2rem;
+    color: white;
+}
+
+.primary_btn {
+    border: none;
+    background-color: var(--primary-color);
+}
+
+.primary_btn:hover {
+    background-color: var(--btnPghover-color);
+}
+
+.primary_outline {
+    background-color: transparent;
+    color: black;
+    border: 2px solid var(--primary-color);
+}
+
+.primary_outline:hover {
+    color: white;
+    background-color: var(--primary-color);
+}
+
+.primary_link {
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid var(--primary-color);
+}
+
+/* secondary botton */
+
+.secondary_btn {
+    border: none;
+    color: black;
+    background-color: var(--backgroundhover-color);
+}
+
+.secondary_outline {
+    background-color: transparent;
+    border: 2px solid var(--secondary-color);
+
+}
+
+/* icon button */
+
+.bookmark,
+.delete {
+    display: flex;
+    gap: 0.5rem;
+    border: none;
+    background-color: var(--primary-color);
+}
+
+/* floating action button */
+
+.floatbtn_div {
+    display: flex;
+}
+
+.add_icon,
+.pen_icon {
+    width: 3rem;
+    height: 3rem;
+    border: none;
+    color: white;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+}
