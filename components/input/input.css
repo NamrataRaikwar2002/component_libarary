@@ -1,0 +1,40 @@
+@import url(/landing.css);
+@import url(/components/instalation/instalation.css);
+
+.all_input {
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.input {
+    padding: 1rem;
+    width: 20rem;
+    border-radius: 0.2rem;
+    border: 2px solid var(--primary-color);
+    font-size: 1rem;
+}
+
+.password_error {
+    color: var(--alertError-color);
+}
+
+.validation_input {
+    border: 2px solid var(--alertError-color);
+}
+
+.validation_section {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.text_section {
+    display: flex;
+    flex-direction: column;
+}
+
+.components_border {
+    padding: 2rem;
+}
