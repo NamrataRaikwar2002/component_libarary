@@ -1,0 +1,47 @@
+@import url(/landing.css);
+@import url(/components/instalation/instalation.css);
+
+.all_list {
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+}
+
+.unordered_list,
+.ordered_list,
+.stacked_list {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.orderedlist_item {
+    list-style: none;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    display: flex;
+    width: 15rem;
+    justify-content: space-between;
+}
+
+.orderedlist_item:nth-child(1) {
+    color: var(--alertError-color);
+    background-color: var(--errorbg-color);
+}
+
+.orderedlist_item:nth-child(2) {
+    color: var(--warning-color);
+    background-color: var(--warningbg-color);
+}
+
+.orderedlist_item:nth-child(3) {
+    color: var(--success-color);
+    background-color: var(--successbg-color);
+}
+
+.orderedlist_item:nth-child(4) {
+    color: var(--info-color);
+    background-color: var(--infobg-color);
+}
