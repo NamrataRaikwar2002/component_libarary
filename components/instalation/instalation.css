@@ -1,5 +1,5 @@
 @import url(/landing.css);
-@import url(/variable.css);
+@import url(/utitlity.css);
 
 body {
     display: flex;
@@ -33,7 +33,6 @@ body {
     padding: 1rem;
     border-radius: 0.2rem;
     font-weight: bold;
-
 }
 
 .component_item:hover {
@@ -43,6 +42,13 @@ body {
 
 .installation_text {
     display: flex;
-    padding: 2rem;
-    overflow: hidden;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.installation {
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
 }
