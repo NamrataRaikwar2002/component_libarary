@@ -1,0 +1,49 @@
+:root {
+    --primary-color: #2563eb;
+    --secondary-color: #94a3b8;
+    --backgroundhover-color: #cbd5e1;
+    --border-color: #94a3b8;
+    --bg-color: #f1f5f9;
+    --shadow-color: #94a3b8;
+    --btnPghover-color: #1f51bd;
+    --alertError-color: #dc2626;
+    --errorbg-color: #fecaca;
+    --warning-color: #d97706;
+    --warningbg-color: #fde68a;
+    --success-color: #3f6212;
+    --successbg-color: #a3e635;
+    --info-color: #164e63;
+    --infobg-color: #7dd3fc;
+    --snackbar-bg: #3f3f46;
+    --green-color: #3dcc79;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.components_heading {
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.carbon_code {
+    border: none;
+    width: 40rem;
+    height: 15rem;
+    overflow-y: hidden;
+    transform: scale(1);
+}
+
+.components_border {
+    display: flex;
+    gap: 2rem;
+    border: 1px solid var(--border-color);
+    padding: 4rem;
+    border-radius: 0.5rem;
+}
+
+span {
+    color: var(--primary-color)
+}
