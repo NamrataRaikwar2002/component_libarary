@@ -1,0 +1,30 @@
+@import url(/landing.css);
+@import url(/components/instalation/instalation.css);
+
+.basic_modal {
+    display: grid;
+    padding: 2rem;
+    grid-gap: 2rem;
+    border-radius: 0.2rem;
+    grid-template-rows: 1fr 1fr 1fr;
+    box-shadow: 1px 2px 4px 1px var(--shadow-color);
+}
+
+.all_modal {
+    display: flex;
+    flex-direction: column;
+    padding: 4rem;
+    gap: 1rem;
+}
+
+.modal_btn {
+    padding: 0.2rem;
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 0.2rem;
+    box-shadow: 1px 2px 4px 1px var(--shadow-color);
+}
+
+.modal_btn:hover {
+    opacity: 0.9;
+}
