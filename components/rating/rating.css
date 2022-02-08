@@ -11,5 +11,5 @@
 
 .star_icon {
     font-size: 1.5rem;
-    color: #fbbf24;
+    color: var(--yellow-star-color);
 }
