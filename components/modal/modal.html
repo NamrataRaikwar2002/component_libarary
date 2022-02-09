@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>rating</title>
-    <link rel="stylesheet" href="rating.css">
+    <title>modal</title>
+    <link rel="stylesheet" href="modal.css">
 </head>
 <script src="https://kit.fontawesome.com/6b52d0ce66.js" crossorigin="anonymous"></script>
 
@@ -43,29 +43,30 @@
                 <a href="/components/rating/rating.html" class="component_item">Rating</a>
                 <a href="/components/utilities/utilities.html" class="component_item">Text Utilities</a>
                 <a href="/components/modal/modal.html" class="component_item">Modal</a>
-
             </div>
-            <main class="all_rating">
-                <h1 class="components_heading">Rating</h1>
-                <p>Rating provide experience of a user with a product. Rating is helpful for the users to act
-                    accordingly.</p>
+            <main class="all_modal">
+                <h1 class="components_heading">Modal</h1>
+                <p>A modal is a popup box that displays at the top of the window.It is also called dialog box.</p>
                 <h2>Example</h2>
-                <p>For rating you can use the class <span> star_icon</span> and copy paste the below code.</p>
+                <p>For modal you can use classes <span>basic_modal</span> and for button style use modal_btn</p>
                 <div class="components_border">
-                    <i class="fas fa-star star_icon"></i>
-                    <i class="fas fa-star star_icon"></i>
-                    <i class="fas fa-star star_icon"></i>
-                    <i class="far fa-star star_icon"></i>
-                    <i class="far fa-star star_icon"></i>
+                    <section class="basic_modal">
+                        <h3>Modal title</h3>
+                        <p>Modal body text</p>
+                        <footer>
+                            <button class="modal_btn">Close</button>
+                            <button class="modal_btn">Save changes</button>
+                        </footer>
+                    </section>
                 </div>
                 <iframe class="carbon_code"
-                    src="https://carbon.now.sh/embed?bg=rgba%28219%2C219%2C244%2C1%29&t=seti&wt=none&l=javascript&width=601&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=37px&ph=42px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Ci%2520class%253D%2522fas%2520fa-star%2520star_icon%2522%253E%253C%252Fi%253E%250A%253Ci%2520class%253D%2522fas%2520fa-star%2520star_icon%2522%253E%253C%252Fi%253E%250A%253Ci%2520class%253D%2522fas%2520fa-star%2520star_icon%2522%253E%253C%252Fi%253E%250A%253Ci%2520class%253D%2522far%2520fa-star%2520star_icon%2522%253E%253C%252Fi%253E%250A%253Ci%2520class%253D%2522far%2520fa-star%2520star_icon%2522%253E%253C%252Fi%253E"
+                    src="https://carbon.now.sh/embed?bg=rgba%28219%2C219%2C244%2C1%29&t=seti&wt=none&l=javascript&width=601&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=37px&ph=42px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Csection%2520class%253D%2522basic_modal%2522%253E%250A%2520%2520%253Ch3%253EModal%2520title%253C%252Fh3%253E%250A%2520%2520%253Cp%253EModal%2520body%2520text%253C%252Fp%253E%250A%2520%2520%253Cfooter%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522modal_btn%2522%253EClose%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522modal_btn%2522%253ESave%2520changes%253C%252Fbutton%253E%250A%2520%2520%253C%252Ffooter%253E%250A%253C%252Fsection%253E"
                     sandbox="allow-scripts allow-same-origin">
                 </iframe>
-
             </main>
         </div>
     </div>
+
 </body>
 
 </html>

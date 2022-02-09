@@ -1,5 +1,6 @@
 @import url(/landing.css);
 @import url(/components/instalation/instalation.css);
+@import url(/utitlity.css);
 
 body {
     overflow-x: hidden;
@@ -25,8 +26,6 @@ body {
     flex-direction: column;
     border: 1px solid var(--border-color);
     border-radius: 0.5rem;
-
-
 }
 
 .alert_bar {
@@ -64,6 +63,3 @@ body {
     background-color: var(--infobg-color);
 }
 
-.alert_code {
-    height: 20rem;
-}
