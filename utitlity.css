@@ -34,7 +34,7 @@ body {
 .carbon_code {
     border: none;
     width: 40rem;
-    height: 15rem;
+    height: 20rem;
     overflow-y: hidden;
     transform: scale(1);
 }
