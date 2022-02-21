@@ -27,44 +27,50 @@ Install the component library to create your components, copy paste the code `<l
 
 ## Components
 
-[Avatar]("https://objective-lewin-a1ee76.netlify.app/components/avatar/avatar.html")
+* [Avatar](https://objective-lewin-a1ee76.netlify.app/components/avatar/avatar.html)
 
-[Alert]("https://objective-lewin-a1ee76.netlify.app/components/alert/alert.html")
+* [Alert](https://objective-lewin-a1ee76.netlify.app/components/alert/alert.html)
 
-[Badge](https://objective-lewin-a1ee76.netlify.app/components/badge/badge.html)
+* [Badge](https://objective-lewin-a1ee76.netlify.app/components/badge/badge.html)
 
-[Button](https://objective-lewin-a1ee76.netlify.app/components/button/button.html)
+* [Button](https://objective-lewin-a1ee76.netlify.app/components/button/button.html)
 
-[Card](https://objective-lewin-a1ee76.netlify.app/components/card/card.html)
+* [Card](https://objective-lewin-a1ee76.netlify.app/components/card/card.html)
 
-[Image](https://objective-lewin-a1ee76.netlify.app/components/image-component/image.html)
+* [Image](https://objective-lewin-a1ee76.netlify.app/components/image-component/image.html)
 
-[Input](https://objective-lewin-a1ee76.netlify.app/components/input/input.html)
+* [Input](https://objective-lewin-a1ee76.netlify.app/components/input/input.html)
 
-[List](https://objective-lewin-a1ee76.netlify.app/components/list/list.html)
+* [List](https://objective-lewin-a1ee76.netlify.app/components/list/list.html)
 
-[Snackbar](https://objective-lewin-a1ee76.netlify.app/components/snackbar/snackbar.html)
+* [Snackbar](https://objective-lewin-a1ee76.netlify.app/components/snackbar/snackbar.html)
 
-[Simplified Grid](https://objective-lewin-a1ee76.netlify.app/components/grid/grid.html)
+* [Simplified Grid](https://objective-lewin-a1ee76.netlify.app/components/grid/grid.html)
 
-[Navigation](https://objective-lewin-a1ee76.netlify.app/components/navbar/navbar.html)
+* [Navigation](https://objective-lewin-a1ee76.netlify.app/components/navbar/navbar.html)
 
-[Rating](https://objective-lewin-a1ee76.netlify.app/components/rating/rating.html)
+* [Rating](https://objective-lewin-a1ee76.netlify.app/components/rating/rating.html)
 
-[Text Utilities](https://objective-lewin-a1ee76.netlify.app/components/utilities/utilities.html)
+* [Text Utilities](https://objective-lewin-a1ee76.netlify.app/components/utilities/utilities.html)
 
-[Modal](https://objective-lewin-a1ee76.netlify.app/components/modal/modal.html)
+* [Modal](https://objective-lewin-a1ee76.netlify.app/components/modal/modal.html)
 
-[Slider](https://objective-lewin-a1ee76.netlify.app/components/slider/slider.html)
+* [Slider](https://objective-lewin-a1ee76.netlify.app/components/slider/slider.html)
 
-[Hamburger](https://objective-lewin-a1ee76.netlify.app/components/hamburger/hamburger.html)
+* [Hamburger](https://objective-lewin-a1ee76.netlify.app/components/hamburger/hamburger.html)
+
+## Video
+  
+
+https://user-images.githubusercontent.com/92174796/155018760-772785d9-cbdc-479b-a287-6cc3ea8de927.mp4
 
 
+  
 
-## Contact
+## Connect to me
 
-[Github](https://github.com/NamrataRaikwar2002)
+* [Github](https://github.com/NamrataRaikwar2002)
 
-[LinkedIn](https://www.linkedin.com/in/namrata-raikwar-727951224/)
+* [LinkedIn](https://www.linkedin.com/in/namrata-raikwar-727951224/)
 
-[Twitter](https://twitter.com/RaikwarNamrata?t=plsVpPoUgAtlfzgO6Uvvsw&s=03)
+* [Twitter](https://twitter.com/RaikwarNamrata?t=plsVpPoUgAtlfzgO6Uvvsw&s=03)
