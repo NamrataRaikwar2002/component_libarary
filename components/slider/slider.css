@@ -1,0 +1,19 @@
+@import url(/landing.css);
+@import url(/components/instalation/instalation.css);
+
+.volume_slider,
+.disabled_slider {
+    width: 15rem;
+}
+
+.all_slider {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 4rem;
+}
+
+.volume_div {
+    display: flex;
+    gap: 0.5rem;
+}
